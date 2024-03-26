@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luma Learning Center</title>
+    <link rel="stylesheet" href="daycare.css"><!---css link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!----font awesome link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!---aos animation-->
+    <link rel="icon" href="images/daycare-logo.webp"><!----tab icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><!---bootstrap link-->
+</head>
+<body>
+    <div id="container">
+        <nav id="navbar" data-aos="fade-in">
+            <div class="logo">
+                <img class="" src="images/daycare-logo.webp">
+            </div>
+            <div class="nav-links"> <!---list for nav links-->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#approach">About Us</a></li>
+                <li><a href="#services">Programs</a></li>
+                <li><a href="#classrooms">Classrooms</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="register.html" target="_blank">Enroll</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/lumalearning/" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lumalearningcenter/" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="tel:+1-770-999-1982" target="_blank">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="menuBar" onclick="menuClicked()"><!---menubar icon for smaller devices-->
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>   
+            </div>
+        </nav>
+<!---slider home section-->
+        <section id="home" class="slides" data-aos="fade-out">
+            <div class="home-wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom">
+                <div class="welcome">
+                    <h1>Welcome to</h1>
+                </div>
+              <div class="daycare-name">
+                <h2 class="auto-type"></h2>
+              </div>
+                <!---info card-->
+                <div class="info-card-wrapper">
+                    <div class="info-card">
+                        <p data-aos="fade-in">Our educational programs at Luma Learning Center were created with our children’s needs in mind: to mature and develop in a safe yet stimulating environment. Take a look below to learn more about each program.</p>
+                    </div>
+                </div>
+              <div class="down-caret">
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </div>
+            </div>
+        </section>
+
+        <section id="approach">
+            <div class="approach-wrapper">
+                <div class="tour-grid">
+                    <div class="tour-left">
+                        <div class="tour-title">
+                            <h1>Our Approach</h1>
+                        </div>
+                        <div class="tour-content">
+                            <p data-aos="fade-in">We provide a wide range of early childhood education and care, from full-time care to part-time options for working families. Our program is designed to meet the needs of children of all ages, and we offer a variety of services to ensure that every child can thrive.
+                                We are a community-based organization, committed to supporting and connecting families in our local area. We believe that strong ties between parents and caregivers form the foundation for a healthy child, and we work hard to build these relationships through our programs and services.
+                            </p>
+                        </div>
+                        <div class="tour-btn">
+                            <a href="#">
+                                <button class="btn">Read about us</button>
+                            </a>
+                        </div>
+                    </div><!---grid part 1 end-->
+                    <div class="approach-img" data-aos="flip-right"></div><!----grid2-->
+                </div><!---tour grid end-->
+            </div>
+        </section><!--approach section end-->
+        <section id="about-us">
+            <div class="about-title-wrapper">
+                <div class="about-title">
+                    <h1 data-aos="fade-up">About us</h1>
+                </div>
+                <div class="about-sub">
+                    <h2>Your child is in great hands.</h2>
+                </div>
+                <div class="about-intro">
+                    <p>  We provide childcare services from infants 6-weeks to 13 years old<br> Full-time, part-time, and drop-offs available</p>
+                </div>
+            </div><!--about title end-->
+            <div class="about-us-wrapper">
+                <div class="about-content">
+                    <p data-aos="fade-in">Luma Learning Center was created with parents in mind.  It is a daycare center where you can leave your children in the hands of professional caretakers, go to work, have some me time or go on dates with complete peace of mind.<br> Luma Learning Center is your home away from home childcare center with smaller class ratio's.
+                        <br>We take in children from 6 weeks through 13 years of age and we are open Mondays through Saturdays from 6am-7pm.
+                        Our team consists of qualified professionals who are certified to supervise, entertain, and provide your children with healthy play activities and education suitable for their age.
+                        Your children are in great hands at Luma Learning Center.
+                    </p>
+                </div>
+            </div>
+            <div class="about-btn">
+                <a href="register.html" target="_blank">
+                    <button class="btn">Pre Register</button><!----register form-->
+                </a>
+            </div>
+        </section>
+
+        <!---services section-->
+        <section id="services" data-aos="flip-right">
+            <div class="service-title">
+                <h1>Services</h1>
+            </div>
+            <div class="services-wrapper">
+                <div class="services-grid">
+                    <div class="infants service"><!----infant service section-->
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">
+                                <img src="images/infants.png" alt="infants">
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <p>
+                                <div class="content-title">
+                                    <h2>Infants</h2>
+                                </div>
+                                Infancy is a tender, remarkable time of growth and development in a child’s life. At Luma Learning Center, our infant program, emphasis is placed on the child’s physical needs, such as feeding and diapering, as well as interpersonal interaction.
+                                <br><span class="read-more-btn" data-target="card1"><p class="read-more btn-1" href="">Read more</p></span>
+                                <div class="hidden-content content1">
+                                    <p>Each infant classroom is designed to develop physical, emotional, social and cognitive skills for babies between the ages of six weeks and twelve months.</p>
+                                </div>
+                            </p>
+                        </div>
+                    </div> 
+
+
+                    <div class="pre-k service"><!----pre-k service section-->
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">
+                                <img src="images/pre-k.jpg" alt="pre-k">
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <p>
+                                <div class="content-title">
+                                    <h2>Pre-K</h2>
+                                </div>
+                                Luma Learning Center prepares your child for kindergarten.
+                                Enrolling them in a quality pre-k program is one of the best things you can do.  Our program aims to give young children the skills they need to be “ready to learn” when they start kindergarten.          
+                                <br><span class="read-more-btn" data-target="card2"><p class="read-more btn-2" href="">Read more</p></span>
+                                <div class="hidden-content content2">
+                                    <p>Children who participate in quality pre-k programs are more likely to excel in language, reasoning, problem solving, social skills, behavior and emotional health.</p>
+                                </div>
+                            </p>
+                        </div>
+                    </div> 
+
+
+
+                    <div class="after-school service"><!----after-school service section-->
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">
+                                <img src="images/schoolbus.jpg" alt="after-school">
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <p>
+                                <div class="content-title">
+                                    <h2>After School</h2>
+                                </div>
+                                Luma Learning Center is helping our young achieve more by incorporating the goal of S.T.E.A.M projects in our after school program curriculums.
+                               <br><span class="read-more-btn" data-target="card3"><p class="read-more btn-3">Read more</p></span>
+                               <div class="hidden-content content3">
+                                <p>S.T.E.A.M. stands for Science, Technology, Engineering, Art, and Math. By teaching these topics in an integrated and engaging way we are better preparing our students for success in school and in their future careers.</p>
+                               </div>
+                            </p>
+                        </div>
+                    </div> 
+
+
+                    <div class="garden service"><!----garden service section-->
+                        <div class="service-icon-wrapper">
+                            <div class="service-icon">
+                                <img src="images/gardern.jpg" alt="garden">
+                            </div>
+                        </div>
+                        <div class="services-content">
+                            <p>
+                                <div class="content-title">
+                                    <h2>Friendship Garden</h2>
+                                </div>
+                                Luma Learning Center, we are investing in a school garden. This is one of the best ways to get children excited about healthy eating and where their food comes from.
+                                <br><span class="read-more-btn" data-target="card4"><p class="read-more btn-4">Read more</p></span>
+                                <div class="hidden-content content4">
+                                    <p>With the supervision from teachers and other adults, this can provide an opportunity for students to develop leadership skills and learn about project management.</p>
+                                </div>
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section><!---services section end-->
+
+        <!----classrooms section-->
+        <section id="classrooms">
+            <div class="classroom-title-wrapper">
+                <div class="classroom-title">
+                    <h2>Classrooms</h2>
+                </div>
+                <div class="classroom-sub">
+                    <h1>Diverse Learning Environment</h1>
+                </div>
+            </div>
+            <div class="diverse-img">
+                <img src="images/diverse.webp" alt="diverse-img" data-aos="fade-in">
+            </div>
+        </section><!----classroom section end-->
+
+        <section id="book-tour">
+            <div class="book-tour-title-wrapper">
+                <div class="book-tour-title">
+                    <h1>Our New Location Book Your Tour Today!</h1>
+                </div>
+                <div class="book-tour-content">
+                    <p>We provide childcare services from infants 6-weeks to 13 years of age<br>Full-time, part-time, and drop-offs available</p>
+                </div>
+                <div class="tour-btn">
+                    <a href="tel:">
+                        <button>Book a tour<span>&nbsp;&nbsp;<i class="fa fa-smile-o" aria-hidden="true"></i></span></button>
+                    </a>
+                </div>
+            </div>
+        </section><!---book section end-->
+
+        <section id="review"><!--review -section -->
+            <div class="review-wrapper">
+                <div class="review-title">
+                    <h1>What the parents think.</h1>
+                </div>
+                <div class="review-content">
+                    <p class="review1 review">We absolutely love Luma. Our son is learning so much there They have helped with his walking and learning new words. He is conquering his milestones! He loves going to daycare each morning and playing with his teachers and friends. Mrs. Susan and the staff are so wonderful and kind. They provide constant updates and a newsletter each month that shows the curriculum. We are so happy we found a home at Luma.<br>Meghan </p>
+                    <p class="review2 review" style="display:none;">A awesome Family environment! Great with ALL my kids, always teaching them new things and helping the kids always reach their milestones , and keeping them safe while parents deal with the stress of everything else!! all the workers are like a Second set of parents ❤️❤️❤️<br>Britani</p>
+                    <p class="review3 review" style="display:none;">Luma has been a wonderful experience for my child! The environment is clean, organized, bright and yet homey. Socially my child has blossomed since being here after a difficult period at another daycare. It brings me peace of mine to be able to check the app to see how his day is going, see pictures enjoying his time and stay updated on events. I look forward to our future here!<br>A C</p>
+                </div>
+                <div class="nxt-btn">
+                    <i class="fa fa-caret-left" aria-hidden="true" onclick="showPrevReview()"></i>
+                    <i class="fa fa-caret-right" aria-hidden="true" onclick="showNextReview()"></i>
+                </div>
+            </div>
+        </section><!---section end-->
+
+        <section id="open-hours"><!---hours section-->
+            <div class="hour-title-wrapper">
+                <div class="hours-title">
+                    <h1 data-aos="fade-in">Register Today</h1>
+                </div>
+                <div class="days-open">
+                    <h2 data-aos="fade-out">Childcare hours Monday-Saturday</h2>
+                </div>
+                <div class="open-time">
+                    <p data-aos="fade-in">6:00am – 7:pm Closed On Sundays and Holidays</p>
+                </div>
+                <div class="location">
+                    <p data-aos="fade-in">  6508 Commerce Pkwy, Woodstock GA 30189</p>
+                </div>
+            </div>
+        </section><!----open hours section end-->
+
+        <section id="contact">
+            <div class="contact-wrapper">
+                <div class="contact-us">
+                    <h2>Contact</h2>
+                </div>
+                <div class="email1">
+                    <a href="mailto:contact@lumalearningcenters.com">
+                        <p>contact@lumalearningcenters.com</p>
+                    </a>
+                </div>
+
+                <div class="email2">
+                    <a href="mailto:lumalearningcenter@gmail.com">
+                        <p>lumalearningcenter@gmail.com</p>
+                    </a>
+                </div>
+                <div class="tel1">
+                    <a href="tel: 770-999-1982">
+                        <p>Tel: 770-999-1982</p>
+                    </a>
+                </div>
+
+                <div class="tel2">
+                    <a href="tel: 770-999-1982">
+                        <p>fax: 470-308-2180</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="dropdown-menu">
+            <div class="dropdown-wrapper">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#approach">About Us</a></li>
+                <li><a href="#services">Programs</a></li>
+                <li><a href="#classrooms">Classrooms</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="register.html" target="_blank">Enroll</a></li>
+                <li><a href="#contact">Contact</a></li>
+    
+                <div class="social-links">
+                    <a href="https://www.facebook.com/lumalearning/" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lumalearningcenter/" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="tel:+1-770-999-1982" target="_blank">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="copyrights">
+            <div class="copyrights-title logo">
+                <img src="images/daycare-logo.webp" alt="">
+            </div>
+
+            <div class="claim">
+                <p>Copyright 2024 Luma Learning Center. All rights reserved. </p>
+            </div>
+        </section>
+
+    </div><!---container end-->
+  
+    
+
+
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> <!---lottie icon script-->
+    <script src="daycare.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script><!---aos animation script-->
+  <script>
+    AOS.init(); /***initialize aos script****/
+  </script>
+  <!---bootstrap javascript code-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -4,6 +4,7 @@ menuBar.addEventListener("click", () =>{
     const dropdownDiv = document.getElementById("dropdown-menu");
     menuBar.classList.toggle("change");
     dropdownDiv.classList.toggle("showDropdown");
+    dropdownDiv.classList.toggle("show-dropdown");
 })
 
 
